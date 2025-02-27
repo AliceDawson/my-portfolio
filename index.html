@@ -1,326 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4" defer></script>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body class="overflow-x-hidden font-sans bg-[#333333]">
-    <nav
-      class="flex items-center justify-between px-30 py-2 border-b font-sans bg-[#222222]"
-    >
-      <!-- logo -->
-      <div class="border-2 border-green-500 px-3 py-1">
-        <span class="font-bold text-lg text-base text-white">A.E.D</span>
-      </div>
-      <!-- nav links -->
-      <div class="flex-1 flex justify-center">
-        <span class="flex space-x-6 text-white text-sm">
-          <span><a href="#" class="hover:text-green-500">Home</a></span>
-          <span><a href="#" class="hover:text-green-500">About</a></span>
-          <span><a href="#" class="hover:text-green-500">Education</a></span>
-          <span><a href="#" class="hover:text-green-500">Experience</a></span>
-          <span><a href="#" class="hover:text-green-500">Skills</a></span>
-          <span
-            ><a href="#" class="hover:text-green-500">Project Gallery</a></span
-          >
-          <span><a href="#" class="hover:text-green-500">Contact</a></span>
-        </span>
-      </div>
-    </nav>
-    <!-- landing page-->
-    <section
-      class="relative w-full h-screen bg-cover bg-center"
-      style="background-image: url('./img/laptop-1.jpg')"
-    >
-      <!-- Overlay to make text more readable -->
-      <div class="absolute inset-0 bg-black/60"></div>
 
-      <!-- Content -->
-      <div
-        class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6"
-      >
-        <h2 class="text-1xl md:text-2xl font-light mt-2">Hello Everyone,</h2>
-        <h1 class="text-3xl md:text-5xl font-bold text-white">
-          I'm Alice Esi Dawson
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4" defer></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <script src="./js/app.js" defer></script>
+</head>
+
+<body class="overflow-x-hidden font-sans bg-[#333333]">
+  <nav class="flex items-center justify-between px-30 py-2 border-b font-sans bg-[#222222]">
+    <!-- logo -->
+    <div class="border-2 border-white px-3 py-1">
+      <span class="font-bold text-lg text-base text-white">AED</span>
+    </div>
+    <!-- nav links -->
+    <div class="flex-1 flex justify-center">
+      <span class="flex space-x-6 text-white text-sm">
+        <span><a href="#" class="hover:text-green-500">Home</a></span>
+        <span><a href="#" class="hover:text-green-500">About</a></span>
+        <span><a href="#" class="hover:text-green-500">Education</a></span>
+        <span><a href="#" class="hover:text-green-500">Experience</a></span>
+        <span><a href="#" class="hover:text-green-500">Skills</a></span>
+        <span><a href="#" class="hover:text-green-500">Project Gallery</a></span>
+        <span><a href="#" class="hover:text-green-500">Contact</a></span>
+      </span>
+    </div>
+  </nav>
+  <!-- landing page-->
+  <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./img/laptop-2.jpg')">
+    <!-- Overlay to make text more readable -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6">
+      <h2 class="text-1xl md:text-2xl font-light mt-2">Hello Everyone,</h2>
+      <div class="flex items-center justify-center h-24 text-white">
+        <h1 class="text-3xl md:text-5xl font-bold">
+          <span id="typing"></span>
         </h1>
-        <h2 class="text-2xl md:text-3xl font-semibold mt-2">
-          A Front-end Developer
-        </h2>
-        <br />
-        <p>
-          <a href="#" class="mt-4 text-lg text-green-400 hover:underline"
-            >Check out my resume</a
-          >
-        </p>
       </div>
-    </section>
-    <section>
-      <div
-        class="mt-12 mb-12 container mx-auto flex items-center justify-center px-6 py-7"
-      >
-        <!-- Image Section -->
-        <div
-          class="w-1/3 hover:scale-x-[-1] transition-transform duration-1000 w-70 h-100 rounded-full"
-        >
-          <img
-            src="./img/about me.JPG"
-            alt="Profile Picture"
-            class="rounded-lg shadow-lg"
-          />
-        </div>
+      <h2 class="text-2xl md:text-3xl font-semibold mt-2 text-green-500">
+        Front-End Developer | UI/UX Designer
+      </h2>
+      <br />
+      <p>
+        <a href="#" class="mt-4 text-lg text-white">HIRE ME.</a>
+      </p>
+    </div>
+  </section>
+  <section>
+    <div class="mt-12 mb-12 container mx-auto flex items-center justify-center px-6 py-7">
+      <!-- Image Section -->
+      <div class="w-1/3 hover:scale-x-[-1] transition-transform duration-1000 w-90 h-100 rounded-full">
+        <img src="./img/about me.JPG" alt="Profile Picture" class="rounded-lg shadow-lg" />
+      </div>
 
-        <!-- Text Section -->
-        <div class="w-2/3 text-white pl-12">
-          <h2 class="text-3xl font-light">
-            About <span class="font-bold">Me</span>
-          </h2>
-          <p class="mt-4 text-white">
-            I recently embarked on my journey as a Front-End Developer through
-            the Meltwater Entrepreneurial School of Technology (MEST) in
-            partnership with Generation Ghana and MasterCard. Currently, I am
-            building a strong foundation in HTML, CSS, and JavaScript while
-            working on various website projects to gain hands-on experience. My
-            goal is to grow into a skilled Front-End Developer and collaborate
-            on innovative projects that make meaningful impacts. I am always
-            open to learning, networking, and building exciting digital
-            experiences..
-          </p>
-          <p class="mt-2 text-gray-800 text-sm">Let's connect.</p>
+      <!-- Text Section -->
+      <div class="w-2/3 text-white pl-12">
+        <h2 class="text-3xl font-light">
+          About <span class="font-bold">Me</span>
+        </h2>
+        <p class="mt-4 text-white">
+          I recently embarked on my journey as a Front-End Developer through
+          the Meltwater Entrepreneurial School of Technology (MEST) in
+          partnership with Generation Ghana and MasterCard. Currently, I am
+          building a strong foundation in HTML, CSS, and JavaScript while
+          working on various website projects to gain hands-on experience. My
+          goal is to grow into a skilled Front-End Developer and collaborate
+          on innovative projects that make meaningful impacts. I am always
+          open to learning, networking, and building exciting digital
+          experiences..
+        </p>
 
-          <!-- Buttons -->
-          <div class="mt-6 flex space-x-4">
+        <!-- Buttons -->
+        <div class="mt-6 flex space-x-4">
+          <a href="./my cv/Alice Esi Dawson CV.pdf" download>
             <button
-              class="text-sm bg-[#66bb6a] text-white px-4 py-1 rounded-full font-semibold shadow-lg"
-            >
-              HIRE ME
-            </button>
-            <button
-              class="text-sm bg-gray-500 text-white px-4 py-1 rounded-full font-semibold shadow-lg"
-            >
+              class="text-sm bg-gray-500 hover:bg-gray-700 text-white px-4 py-1 rounded-full font-semibold shadow-lg">
               DOWNLOAD CV
             </button>
-          </div>
+          </a>
         </div>
       </div>
-    </section>
-    <section class="bg-[#222222] text-white py-7 px-40 text-center">
-      <!-- <h2 class="text-3xl font-light">
+    </div>
+  </section>
+  <section class="bg-[#222222] text-white py-10 px-20 text-center">
+    <!-- <h2 class="text-3xl font-light">
         My <span class="font-bold">Resume</span>
       </h2> -->
 
-      <div class="mt-8 flex flex-col md:flex-row justify-center gap-8">
-        <!-- Education Section -->
-        <div class="w-full md:w-1/2">
-          <h2 class="text-3xl text-left mb-4">Education</h2>
-          <div class="bg-[#333333] p-6 rounded-xl mb-4 text-left">
-            <p class="text-sm text-gray-400">📅 February 2025 - Present</p>
-            <h4 class="text-green-400 font-semibold mt-2">
-              Meltwater Entrepreneurial School of Technology (MEST)
-            </h4>
-            <p class="text-gray-300 mt-2">Web Development</p>
-            <!-- <p class="text-gray-500 text-sm mt-2">New York University</p> -->
-          </div>
-          <div class="bg-[#333333] p-6 rounded-xl text-left">
-            <p class="text-sm text-gray-400">📅 August 2017 - November 2021</p>
-            <h4 class="text-green-400 font-semibold mt-2">
-              University of Ghana
-            </h4>
-            <p class="text-gray-300 mt-2">
-              B.A. Sociology with Study of Religions
-            </p>
-            <!-- <p class="text-gray-500 text-sm mt-2">Harvard University</p> -->
-          </div>
+    <div class="mt-8 flex flex-col md:flex-row justify-center gap-8">
+      <!-- Education Section -->
+      <div class="w-full md:w-1/2">
+        <h2 class="text-3xl text-left mb-4">Education</h2>
+        <div class="bg-[#333333] p-6 rounded-xl mb-4 text-left">
+          <p class="text-sm text-gray-400">📅 February 2025 - Present</p>
+          <h4 class="text-[#66bb6a] font-semibold mt-2">
+            Meltwater Entrepreneurial School of Technology (MEST)
+          </h4>
+          <p class="text-gray-300 mt-2">Web Development</p>
+          <!-- <p class="text-gray-500 text-sm mt-2">New York University</p> -->
         </div>
+        <div class="bg-[#333333] p-6 rounded-xl text-left">
+          <p class="text-sm text-gray-400">📅 August 2017 - November 2021</p>
+          <h4 class="text-[#66bb6a] font-semibold mt-2">
+            University of Ghana
+          </h4>
+          <p class="text-gray-300 mt-2">
+            B.A. Sociology with Study of Religions
+          </p>
+          <!-- <p class="text-gray-500 text-sm mt-2">Harvard University</p> -->
+        </div>
+      </div>
 
-        <!-- Experience Section -->
-        <div class="w-full md:w-1/2">
-          <h2 class="text-3xl text-left mb-4">Experience</h2>
-          <div class="bg-[#333333] p-6 rounded-xl mb-4 text-left">
-            <p class="text-sm text-gray-400">📅 July 2023 - September 2024</p>
-            <h4 class="text-green-400 font-semibold mt-2">VDL Fulfilment</h4>
-            <p class="text-gray-300 mt-2">
-              Head of Inventory Department | Client Relations Executive.
-            </p>
-            <!-- <p class="text-gray-500 text-sm mt-2">Github</p> -->
+      <!-- Experience Section -->
+      <div class="w-full md:w-1/2">
+        <h2 class="text-3xl text-left mb-4">Experience</h2>
+        <div class="bg-[#333333] p-6 rounded-xl mb-4 text-left">
+          <p class="text-sm text-gray-400">📅 July 2023 - September 2024</p>
+          <h4 class="text-[#66bb6a] font-semibold mt-2">VDL Fulfilment</h4>
+          <p class="text-gray-300 mt-2">
+            Head of Inventory Department | Client Relations Executive.
+          </p>
+          <!-- <p class="text-gray-500 text-sm mt-2">Github</p> -->
+        </div>
+        <div class="bg-[#333333] p-6 rounded-xl text-left">
+          <p class="text-sm text-gray-400">
+            📅 November 2021 - December 2022
+          </p>
+          <h4 class="text-[#66bb6a] font-semibold mt-2">
+            Ernest Chemists Ltd
+          </h4>
+          <p class="text-gray-300 mt-2">
+            National Service | Warehouse Assistant.
+          </p>
+          <!-- <p class="text-gray-500 text-sm mt-2">Google</p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-center py-10 px-6">
+    <h2 class="text-3xl font-light text-white">
+      My <span class="font-bold">Skills</span>
+    </h2>
+
+    <div class="flex flex-wrap justify-center gap-6 py-7">
+      <!-- HTML -->
+      <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+          class="h-12 mx-auto" />
+        <p class="mt-2 font-semibold text-gray-700">HTML</p>
+      </div>
+
+      <!-- CSS -->
+      <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+          class="h-12 mx-auto" />
+        <p class="mt-2 font-semibold text-gray-700">CSS</p>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript" class="h-12 mx-auto" />
+        <p class="mt-2 font-semibold text-gray-700">JavaScript</p>
+      </div>
+
+      <!-- React -->
+      <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+          class="h-12 mx-auto" />
+        <p class="mt-2 font-semibold text-gray-700">React</p>
+      </div>
+
+      <!-- Figma -->
+      <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"
+          class="h-12 mx-auto" />
+        <p class="mt-2 font-semibold text-gray-700">Figma</p>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="max-w-6xl mx-auto p-4">
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-gray-200 p-4 flex justify-center items-center">
+          <img src="./img/3.jpeg" alt="Clock" class="w-full h-full object-cover" />
+        </div>
+        <div class="bg-gray-200 p-4 flex justify-center items-center">
+          <img src="./img/2.jpeg" alt="Tote Bag" class="w-full h-full object-cover" />
+        </div>
+        <div class="bg-white p-4 flex justify-center items-center">
+          <p class="text-gray-700 font-semibold">FISH</p>
+        </div>
+        <div class="bg-gray-200 p-4 flex justify-center items-center col-span-2">
+          <img src="./img/1.jpeg" alt="Bottle" class="w-full h-full object-cover" />
+        </div>
+        <div class="bg-gray-200 p-4 flex justify-center items-center">
+          <img src="./img/hero 1.jpg" alt="Ice Cream" class="w-full h-full object-cover" />
+        </div>
+        <!-- <div class="bg-gray-200 p-4 flex justify-center items-center">
+            <img
+              src="./img/headshot 2.jpeg"
+              alt="Letter"
+              class="w-full h-full object-cover"
+            /> -->
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="bg-[#222222] w-full py-12 px-4 md:px-16">
+    <h2 class="text-white text-center text-2xl font-light mb-8">
+      Get <span class="text-white font-bold"> In Touch</span>
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Contact Form -->
+      <div>
+        <h3 class="text-white text-lg font-light mb-4">Let's Connect</h3>
+        <form class="space-y-3">
+          <input type="text" placeholder="Your Name"
+            class="w-full p-2 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]" />
+          <input type="email" placeholder="Your Email"
+            class="w-full p-2 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]" />
+          <input type="tel" placeholder="Your Phone"
+            class="w-full p-2 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]" />
+          <textarea placeholder="Write a Message"
+            class="w-full p-2 h-24 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]"></textarea>
+          <button class="bg-[#66bb6a] hover:bg-green-700 text-white font-semibold px-6 py-2 text-sm rounded-full">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Details -->
+      <div>
+        <h3 class="text-white text-lg font-light mb-4">My Contact Details</h3>
+        <div class="space-y-3">
+          <div>
+            <h4 class="text-[#66bb6a] uppercase text-xs">Email</h4>
+            <p class="text-base text-gray-300">aliceesidawson04@gmail.com</p>
           </div>
-          <div class="bg-[#333333] p-6 rounded-xl text-left">
-            <p class="text-sm text-gray-400">📅 November 2021 - December 2022</p>
-            <h4 class="text-green-400 font-semibold mt-2">
-              Ernest Chemists Ltd
-            </h4>
-            <p class="text-gray-300 mt-2">
-              National Service | Warehouse Assistant.
+          <div>
+            <h4 class="text-[#66bb6a] uppercase text-xs">Phone</h4>
+            <p class="text-base text-gray-300">
+              233 267 698 710/ +233 559 403 387
             </p>
-            <!-- <p class="text-gray-500 text-sm mt-2">Google</p> -->
+          </div>
+          <div>
+            <h4 class="text-[#66bb6a] uppercase text-xs">Location</h4>
+            <p class="text-base text-gray-300">Accra, Ghana</p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="text-center py-20 px-50">
-      <h2 class="text-3xl font-light text-white px-6 mb-20">
-        My <span class="font-bold">Skills</span>
-      </h2>
+    </div>
+  </section>
+  <section>
+    <footer class="bg-[#222222] text-gray-400 text-center py-8">
+      <p class="text-sm mb-4">
+        &copy; 2025 Alice Esi Dawson | All rights reserved.
+      </p>
 
-      <div class="flex flex-wrap justify-center gap-10">
-        <!-- HTML -->
-        <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            alt="HTML"
-            class="h-12 mx-auto"
-          />
-          <p class="mt-2 font-semibold text-gray-700">HTML</p>
-        </div>
-
-        <!-- CSS -->
-        <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            alt="CSS"
-            class="h-12 mx-auto"
-          />
-          <p class="mt-2 font-semibold text-gray-700">CSS</p>
-        </div>
-
-        <!-- JavaScript -->
-        <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="JavaScript"
-            class="h-12 mx-auto"
-          />
-          <p class="mt-2 font-semibold text-gray-700">JavaScript</p>
-        </div>
-
-        <!-- React -->
-        <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React"
-            class="h-12 mx-auto"
-          />
-          <p class="mt-2 font-semibold text-gray-700">React</p>
-        </div>
-
-        <!-- Figma -->
-        <div class="bg-white shadow-lg p-6 rounded-xl w-32 text-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-            alt="Figma"
-            class="h-12 mx-auto"
-          />
-          <p class="mt-2 font-semibold text-gray-700">Figma</p>
-        </div>
+      <!-- Social Icons -->
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700">
+          <i class="fab fa-facebook-f text-green-400"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700">
+          <i class="fab fa-twitter text-green-400"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700">
+          <i class="fab fa-instagram text-green-400"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700">
+          <i class="fab fa-linkedin-in text-green-400"></i>
+        </a>
       </div>
-    </section>
-    <section class="bg-[#222222] w-full py-12 px-4 md:px-16">
-      <h2 class="text-white text-center text-2xl font-light mb-8">
-        Get <span class="text-white font-bold">In Touch</span>
-      </h2>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Contact Form -->
-        <div>
-          <h3 class="text-white text-lg font-light mb-4">Let's Connect</h3>
-          <form class="space-y-3">
-            <input
-              type="text"
-              placeholder="Your Name"
-              class="w-full p-2 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              class="w-full p-2 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]"
-            />
-            <input
-              type="tel"
-              placeholder="Your Phone"
-              class="w-full p-2 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]"
-            />
-            <textarea
-              placeholder="Write a Message"
-              class="w-full p-2 h-24 bg-white border border-gray-700 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#66bb6a]"
-            ></textarea>
-            <button
-              class="bg-[#66bb6a] hover:bg-blue-700 text-white font-semibold px-6 py-2 text-sm rounded-full"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-
-        <!-- Contact Details -->
-        <div>
-          <h3 class="text-white text-lg font-light mb-4">My Contact Details</h3>
-          <div class="space-y-3">
-            <div>
-              <h4 class="text-[#66bb6a] uppercase text-xs">Email</h4>
-              <p class="text-base text-gray-300">aliceesidawson04@gmail.com</p>
-            </div>
-            <div>
-              <h4 class="text-[#66bb6a] uppercase text-xs">Phone</h4>
-              <p class="text-base text-gray-300">
-                233 267 698 710/ +233 559 403 387
-              </p>
-            </div>
-            <div>
-              <h4 class="text-[#66bb6a] uppercase text-xs">Location</h4>
-              <p class="text-base text-gray-300">Accra, Ghana</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <footer class="bg-[#222222] text-gray-400 text-center py-8">
-        <p class="text-sm mb-4">
-          &copy; 2025 Alice Esi Dawson | All rights reserved.
-        </p>
-
-        <!-- Social Icons -->
-        <div class="flex justify-center space-x-4">
-          <a
-            href="#"
-            class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700"
-          >
-            <i class="fab fa-facebook-f text-green-400"></i>
-          </a>
-          <a
-            href="#"
-            class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700"
-          >
-            <i class="fab fa-twitter text-green-400"></i>
-          </a>
-          <a
-            href="#"
-            class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700"
-          >
-            <i class="fab fa-instagram text-green-400"></i>
-          </a>
-          <a
-            href="#"
-            class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-gray-700"
-          >
-            <i class="fab fa-linkedin-in text-green-400"></i>
-          </a>
-        </div>
-      </footer>
-    </section>
-  </body>
+    </footer>
+  </section>
+</body>
 </html>
