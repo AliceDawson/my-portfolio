@@ -22,3 +22,24 @@ function resetTyping() {
 }
 
 typeEffect(); // Start the typing effect
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3, // Show 3 items at a time
+      spaceBetween: 20, // Add spacing
+      loop: true, // Infinite loop
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: { slidesPerView: 2 }, // Show 2 items on small screens
+        1024: { slidesPerView: 3 }, // Show 3 items on medium screens
+      }
+    });
+  });
